@@ -11,6 +11,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/8253
     wikipedia: http://en.wikipedia.org/wiki/Thomas_Bassnett
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/18791#Outlines-of-a-Mechanical-Theory-of-StormsContaining-the-True-Law-of-Lunar-Influence
 gutenberg_issued: '2006-07-08'
 gutenberg_type: Text
 identifiers:
