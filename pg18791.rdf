@@ -1,67 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/18791">
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N3846d47b6c604c86880a504862d0d6f0">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Weather</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165974</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1184369</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:59:25.582546</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N71a25eedf13649f69421352051fd997a">
+          <rdf:Description rdf:nodeID="N260d20eacb564c6fa36cefcf9a9fe37f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N363daee9c55547bdacf64f706b65aeeb">
+        <rdf:value>QC</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481319</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N59ca89aad37a42a48cef19f9d986f56e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:54:38</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndae49c1e989c4fb4931881c6764d69bf">
+          <rdf:Description rdf:nodeID="N43e7889fbe5541c5b1d322f38e97476d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371702</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3dbd550934bf4d1e990cb2c4f24ecd5c">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-08</dcterms:issued>
+    <pgterms:marc010>04033183</pgterms:marc010>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:54:38</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.rdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2266a661c1674ccea6f12fedcdc0fb6b">
+          <rdf:Description rdf:nodeID="Ncacf3786cf8342e7b512156446d20dbd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481319</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:14:08.136228</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14171</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.kindle.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.kindle.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">862157</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:59:27.838509</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8af33cf64edb4a8b911e763dfc1df8fd">
+          <rdf:Description rdf:nodeID="N38d48bdcc88341898c07e0fd1ec95fb3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">485212</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:02:21.494716</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-h/18791-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:52:26</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582398</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc16ef0af52fd4183a87d6d3d43144736">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -69,144 +96,60 @@
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:02:16.056153</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">354682</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6c48e0db8c494cc3892462848756bcd0">
+          <rdf:Description rdf:nodeID="N3eaafac70bfb4b5882e34f7588aab51c">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">352759</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:59:21.896630</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</pgterms:downloads>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf7a669f1682d4a47a6dc2a9d4f189898">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Weather</rdf:value>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Ne1b7bd9f262a4a3ba518e542b356b41a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
-    <dcterms:title>Outlines of a Mechanical Theory of Storms
-Containing the True Law of Lunar Influence</dcterms:title>
+    </dcterms:type>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5f2f5ec8eb149759fa6981a7ab1e77a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N407974731d59448d9a24fd7ee7afc0a4">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbfacebd9545e4c6a8a64630ecee6f48d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nd88f6cdae6bc4c769abe1a3014d65cdc">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166159</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-0.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N340d8e1b3da5427683f5a2a2b8f419be">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481534</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:52:24</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371702</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2523f32e854c408790274277fd70dfd5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N676f654ab9d343d9b9df66ba384d40cd">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-8.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481117</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne5a0325d33c2430e9daa23213a3d98d4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:53:46</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N6cfd64b3efad4c04bcc8798e9e52dec2">
-        <rdf:value>QC</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267743</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N62ba85fdb12b40668906e111b7f7ebd8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T22:18:23.611953</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:marc010>04033183</pgterms:marc010>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T22:18:16.855716</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228125</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf80bc1917c9a47b7aad1a7d0b1c5be46">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-0.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166385</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N14f574c987424bd3803b32fc408df4dc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Nfb08c34ac11a42559dc21651764ebef8">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb2265f7f3e124a14be8c5c12ffea4089">
+          <rdf:Description rdf:nodeID="N0ef162c0eca941c3a4971fba71c57aca">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165974</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/8253">
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1808</pgterms:birthdate>
@@ -216,44 +159,91 @@ Containing the True Law of Lunar Influence</dcterms:title>
     </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199464</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:02:15.078126</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:59:22.573607</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198759</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N68bb0eee5ba248c2a4d8bd190d0afc56">
+          <rdf:Description rdf:nodeID="N87e7253797774368818b327204c09255">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N9906cd11861b42f8b3a4bfbe5c55425d">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18791.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319280</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8279b50e361e43898189fd4b792dbb61">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T07:02:18.150056</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N2d7b3e8aea27462fac51d39bb7d60dce">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3f20be560b3b42a1be6472a61d488fc6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8b8ecb73dd334e6ab4b6a00deef9b9a0">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:55:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166385</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Na0bc10589250405ea9ba82db5daefc33">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
-    </dcterms:type>
+    </dcterms:language>
+    <dcterms:title>Outlines of a Mechanical Theory of Storms
+Containing the True Law of Lunar Influence</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481117</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:53:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na647b779dea142f096074b37a9698264">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-0.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N97c249fb5f50412db100502c66374b35">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481534</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:52:24</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18791/18791-h/18791-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-08T10:52:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18791"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582398</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncddad66279a94ca2bd1526c598fa9dde">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-08</dcterms:issued>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Thomas_Bassnett">
     <dcterms:description>Wikipedia</dcterms:description>

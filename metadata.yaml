@@ -25,6 +25,7 @@ rights_url: http://creativecommons.org/about/pdm
 subjects:
 - !lcc 'QC'
 - !lcsh 'Weather'
+- GITenberg
 title: 'Outlines of a Mechanical Theory of Storms
 
   Containing the True Law of Lunar Influence'
